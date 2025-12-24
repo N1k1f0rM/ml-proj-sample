@@ -1,7 +1,9 @@
 [project]
 name = "emotions-classification"
 version = "0.1.0"
-description = "Add your description here"
+description = "Classification model to classify social media comments undeer post by emotions"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "dvc>=3.65.0",
+]
