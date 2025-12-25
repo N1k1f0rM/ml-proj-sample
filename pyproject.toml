@@ -5,6 +5,7 @@ description = "Classification model to classify social media comments undeer pos
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "black>=25.12.0",
     "dvc>=3.65.0",
     "dvc-s3>=3.2.2",
 ]
